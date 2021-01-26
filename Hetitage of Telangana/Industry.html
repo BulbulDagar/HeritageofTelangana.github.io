@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="industry.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>Industries Of Telangana</h1>
+  <p> Industrialization will be the key strategy followed for economic growth and development for Telangana, the latest State of the country. People of the new State have very high expectations from the Telangana State Government for creating jobs for the youth, promote development of backward areas, maximize growth opportunities by optimum utilization of the available resources, harness the talents and skills of the people and usher prosperity in every household. Industrialization holds the potential for fulfilling all the dreams and aspirations of the people of Telangana.</P>
+<br>
+
+<div>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-container">
+
+  <div class="w3-show-inline-block">
+  <div class="w3-bar">
+    <button id="myBtn" onclick="myFunction()"> Pause <i class="fa fa-pause-circle" aria-hidden="true"></i></button>
+</button>
+    
+<form method="get" action="Industry1.html">
+<button method="get" action="Industry1.html"class="button button2">
+    
+	<style>
+.button {
+  background-color: black; 
+  border: none;
+  color: white;
+  width: 200px;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+
+
+Explore Industries</button> 
+</form> 
+</div>
+</div>
+</button>
+   </div>
+  </div>
+ </div>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
